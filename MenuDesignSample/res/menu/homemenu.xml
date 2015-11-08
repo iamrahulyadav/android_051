@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuCube"
+        android:showAsAction="ifRoom"
+        android:title="Cube"/>
+    <item
+        android:id="@+id/menuNext"
+        android:showAsAction="never"
+        android:title="Next"/>
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit"/>
+
+</menu>

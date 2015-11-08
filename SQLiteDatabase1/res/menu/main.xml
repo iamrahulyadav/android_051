@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sqlitedatabase1.MainActivity" >
+
+    <item
+        android:id="@+id/menuAdd"
+        android:title="Add">
+    </item>
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit">
+    </item>
+
+</menu>

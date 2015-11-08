@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.rp.angrezibolo"
+    android:versionCode="1"
+    android:versionName="1.0"
+     >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:logo="@drawable/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="info.conversation.MainActivityConversation"></activity>
+        <activity android:name="info.conversation.AskDirection"></activity>
+        <activity android:name="info.conversation.BirthdayPresent"></activity>
+        <activity android:name="info.conversation.BuyShirt"></activity>
+        <activity android:name="info.conversation.Clinic"></activity>
+        <activity android:name="info.conversation.ConversationWithUncal"></activity>
+        <activity android:name="info.conversation.ShoppingConversation"></activity>
+        <activity android:name="info.conversation.StudentConversation"></activity>
+        <activity android:name="info.conversation.StudyingConversation"></activity>
+        <activity android:name="info.conversation.WhrereAreYouFrom"></activity>
+        <activity android:name="info.grammar.MainActivityGrammar"></activity>
+        <activity android:name="info.grammar.AbleTo"></activity>
+        <activity android:name="info.grammar.AboutTo"></activity>
+        <activity android:name="info.grammar.BasicGrammar"></activity>
+        <activity android:name="info.grammar.Can"></activity>
+        <activity android:name="info.grammar.Could"></activity>
+        <activity android:name="info.grammar.Exclamatory"></activity>
+        <activity android:name="info.grammar.FormationOfSentence"></activity>
+        <activity android:name="info.grammar.GoingTo"></activity>
+        <activity android:name="info.grammar.HasHave"></activity>
+        <activity android:name="info.grammar.HasHaveTo"></activity>
+        <activity android:name="info.grammar.Interjection"></activity>
+        <activity android:name="info.grammar.It"></activity>
+        <activity android:name="info.grammar.May"></activity>
+        <activity android:name="info.grammar.MayMight"></activity>
+        <activity android:name="info.grammar.Must"></activity>
+        <activity android:name="info.grammar.OughtTo"></activity>
+        <activity android:name="info.grammar.preposition"></activity>
+        <activity android:name="info.grammar.Should"></activity>
+        <activity android:name="info.grammar.The"></activity>
+        <activity android:name="info.grammar.ThereIs"></activity>
+        <activity android:name="info.grammar.ThereWas"></activity>
+        <activity android:name="info.grammar.UsedTo"></activity>
+        <activity android:name="info.grammar.WouldLikeTo"></activity>
+        <activity android:name="info.vocab.MainActivityVocabulary"></activity>
+        <activity android:name="info.vocab.AgeOfHuman1"></activity>
+        <activity android:name="info.vocab.ConfusedWords"></activity>
+        <activity android:name="info.vocab.Famous"></activity>
+        <activity android:name="info.vocab.FunnyEnglishIdioms"></activity>
+        <activity android:name="info.vocab.ListOfAnimals"></activity>
+        <activity android:name="info.vocab.ListOfBirds"></activity>
+        <activity android:name="info.vocab.ListOfColors"></activity>
+        <activity android:name="info.vocab.ListOfDeaseas"></activity>
+        <activity android:name="info.vocab.ListOfDress"></activity>
+        <activity android:name="info.vocab.ListOfFlower"></activity>
+        <activity android:name="info.vocab.ListOfFruits"></activity>
+        <activity android:name="info.vocab.ListOfhouse"></activity>
+        <activity android:name="info.vocab.ListOfRelations"></activity>
+        <activity android:name="info.vocab.ListOftime"></activity>
+        <activity android:name="info.vocab.ListOfTree"></activity>
+        <activity android:name="info.vocab.ListOfVeg"></activity>
+        <activity android:name="info.vocab.ListOfVegitables"></activity>
+        <activity android:name="info.vocab.SingularToPural"></activity>
+        <activity android:name="info.vocab.SMS"></activity>
+        <activity android:name="info.vocab.Suitcase"></activity>
+        <activity android:name="info.tense.MainActivityTense"></activity>
+        <activity android:name="info.tense.FutureContinous"></activity>
+        <activity android:name="info.tense.FutureIndefinite"></activity>
+        <activity android:name="info.tense.FuturePerfect"></activity>
+        <activity android:name="info.tense.IsAmAre"></activity>
+        <activity android:name="info.tense.PastContinous"></activity>
+        <activity android:name="info.tense.PastIndefinite"></activity>
+        <activity android:name="info.tense.PastPerfect"></activity>
+        <activity android:name="info.tense.PresentContinous"></activity>
+        <activity android:name="info.tense.PresentIndefinite"></activity>
+        <activity android:name="info.tense.PresentPerfect"></activity>
+        <activity android:name="ifno.tips.MainActivityTips"></activity>
+        <activity android:name="ifno.tips.AmericanVsBritishEnglish"></activity>
+        <activity android:name="ifno.tips.BorrowLendHire"></activity>
+        <activity android:name="ifno.tips.ConversationStart"></activity>
+        <activity android:name="ifno.tips.EnglishGrammar"></activity>
+        <activity android:name="ifno.tips.EnglishTecknik"></activity>
+        <activity android:name="ifno.tips.GlassJar"></activity>
+        <activity android:name="ifno.tips.RulesOfEttiquette"></activity>
+        <activity android:name="ifno.tips.SelfIntrospection"></activity>
+        <activity android:name="ifno.tips.SymbolsOfPunctuation"></activity>
+        <activity android:name="ifno.tips.ValueOf500"></activity>
+        <activity android:name="ifno.tips.WhyEnglish"></activity>
+        <activity android:name="ifno.tips.ManagementGuru"></activity>
+        <activity android:name="info.vocab.Idomatic"></activity>
+        <activity android:name="info.vocab.Home"></activity>
+        <activity android:name="info.vocab.DailyWords"></activity>
+        <activity android:name="info.grammar.Had"></activity>
+        <activity android:name="info.grammar.ThereWillBe"></activity>
+        <activity android:name="info.grammar.Let"></activity>
+        <activity android:name="info.grammar.WasWere"></activity>
+        <activity android:name="ifno.tips.CommonErrors"></activity>
+        <activity android:name="ifno.tips.ToungeTwister"></activity>
+       
+        <activity android:name="ifno.tips.Emotions"></activity>
+        <activity android:name="ifno.tips.HelloOk"></activity>
+        <activity android:name="ifno.tips.Top9"></activity>
+        <activity android:name="ifno.tips.EnglishBugaboo"></activity>
+        <activity android:name="ifno.tips.ChangeThinking"></activity>
+        <activity android:name="ifno.tips.OneGlassWater"></activity>
+        
+        <activity android:name="info.tense.PresentPerfectContinous"></activity><activity android:name="info.tense.PastPerfectContinous"></activity>
+        <activity android:name="info.quiz.StartQuizActivity"></activity>
+        <activity android:name="info.quiz.MainActivityTest"></activity>
+        <activity android:name="info.quiz.Sets"></activity>
+        <activity android:name="info.quiz.QuizActivity"></activity>
+        <activity android:name="info.grammar.Intronegative"></activity>
+        <activity android:name="ifno.tips.Idioms"></activity>
+        <activity android:name="info.grammar.AAn"></activity>
+        <activity android:name="info.grammar.Voice"></activity>
+        <activity android:name="info.grammar.WantTo"></activity>
+        <activity android:name="ifno.tips.CricketCommentary"></activity>
+        <activity android:name="ifno.tips.SpellingMistake"></activity>
+        <activity android:name="ifno.tips.BodyLanguage"></activity>
+        <activity android:name="ifno.tips.EasyEnglish"></activity>
+        <activity android:name="ifno.tips.UseVocabs"></activity>
+        <activity android:name="ifno.tips.WritingSpeed"></activity>
+        <activity android:name="ifno.tips.NaturalEnglish"></activity>
+        <activity android:name="ifno.tips.ImproveEnglish"></activity>
+        <activity android:name="ifno.tips.NewsPaper"></activity>
+        <activity android:name="ifno.tips.Stagefear"></activity>
+       
+        <activity android:name="ifno.tips.Remember"></activity>
+        <activity android:name="writingskill.MainActivityWritingSkill"></activity>
+        <activity android:name="writingskill.BusinessLetter"></activity>
+        <activity android:name="writingskill.CoverLetter"></activity>
+        <activity android:name="writingskill.EmailWriting"></activity>
+        <activity android:name="writingskill.Resume"></activity>
+        <activity android:name="writingskill.ThankYouLetter"></activity>
+        <activity android:name="writingskill.Friendly"></activity>
+    </application>
+
+</manifest>

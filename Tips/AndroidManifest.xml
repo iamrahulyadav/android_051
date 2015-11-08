@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grammer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:permission="android.permission.ACCESS_FINE_LOCATION" android:allowTaskReparenting="true" android:hardwareAccelerated="true">
+        <activity
+            android:name=".MainActivityTips"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="IsAmAre"></activity>
+        <activity android:name="PresentIndefinite"></activity>
+        <activity android:name="PresentContinous"></activity>
+        <activity android:name="PresentPerfect"></activity>
+        <activity android:name="PastIndefinite"></activity>
+        <activity android:name="PastContinous"></activity>
+        <activity android:name="PastPerfect"></activity>
+        <activity android:name="FutureIndefinite"></activity>
+        <activity android:name="FutureContinous"></activity>
+        <activity android:name="FuturePerfect"></activity>
+        <activity android:name="ValueOf500"></activity>
+        <activity android:name="BorrowLendHire"></activity>
+        <activity android:name="AmericanVsBritishEnglish"></activity>
+        <activity android:name="EnglishGrammar"></activity>
+        <activity android:name="WhyEnglish"></activity>
+        <activity android:name="ConversationStart"></activity>
+        <activity android:name="RulesOfEttiquette"></activity>
+        <activity android:name="SymbolsOfPunctuation"></activity>
+        <activity android:name="ManagementGuru"></activity>
+        <activity android:name="SelfIntrospection"></activity>
+        <activity android:name="EnglishTecknik"></activity>
+        <activity android:name="GlassJar"></activity>
+        <activity android:name="HelloOk"></activity>
+        <activity android:name="OneGlassWater"></activity>
+        <activity android:name="EnglishBugaboo"></activity>
+        <activity android:name="Emotions"></activity>
+        <activity android:name="ChangeThinking"></activity>
+        <activity android:name="Top9Tips"></activity>
+        <activity android:name="ToungeTwister"></activity>
+        <activity android:name="CommonErrors"></activity>
+    </application>
+
+</manifest>
